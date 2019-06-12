@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cn.edu.hebtu.software.peace">
+
+    <!-- 微信需要的权限 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".WakeSpotActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".CalenderActivity" />
+        <activity android:name=".SleepActivity" />
+        <activity android:name=".StartSleepActivity" />
+        <activity android:name=".SleepTotalAcitivty" />
+
+        <service
+            android:name=".utils.MusicService1"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name=".utils.MusicService2"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name=".utils.MusicService3"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name=".utils.MusicService4"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".IndexActivity" />
+        <!-- 选择闹钟的activity -->
+        <activity android:name=".alarmactivity.SelectAlarmClockActivity" />
+        <activity android:name=".alarmactivity.AlarmActivity" />
+
+        <receiver android:name=".alarmactivity.RepeatingAlarm">
+            <intent-filter>
+                <action android:name="com.ll.alarm" />
+            </intent-filter>
+        </receiver>
+
+        <activity android:name=".test"></activity>
+    </application>
+
+</manifest>

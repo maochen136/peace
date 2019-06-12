@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:maskimage="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/backcolor"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="3dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/fan"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@drawable/fan"/>
+        <TextView
+            android:id="@+id/share"
+            android:layout_gravity="center"
+            android:layout_width="300dp"
+            android:paddingLeft="113dp"
+            android:text="唤醒场景"
+            android:textColor="#ffffff"
+            android:textSize="19dp"
+            android:textStyle="bold"
+            android:layout_height="25dp" />
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp">
+
+        <LinearLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+                <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/index_img1"
+                    android:layout_width="220dp"
+                    android:layout_height="300dp"
+                    android:scaleType="fitXY"
+                   />
+                <ImageView
+                    android:id="@+id/b1"
+                    android:layout_centerInParent="true"
+
+                    android:layout_width="30dp"
+                    android:layout_height="30dp" />
+                </RelativeLayout>
+                    <TextView
+                        android:id="@+id/btn_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="45dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="5dp"
+                        android:text="随机场景"
+                        android:textColor="#ffffff"
+                        android:textSize="18dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:orientation="vertical">
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/index_img2"
+                    android:layout_width="220dp"
+                    android:layout_height="300dp"
+                    android:scaleType="fitXY" />
+    <ImageView
+        android:id="@+id/b2"
+        android:layout_centerInParent="true"
+        android:layout_width="30dp"
+        android:layout_height="30dp" />
+</RelativeLayout>
+                <TextView
+                    android:id="@+id/btn_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:text="北极的极光"
+                    android:textColor="#ffffff"
+                    android:textSize="15dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:orientation="vertical">
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/index_img3"
+                    android:layout_width="220dp"
+                    android:layout_height="300dp"
+                    android:scaleType="fitXY" />
+    <ImageView
+        android:id="@+id/b3"
+        android:layout_centerInParent="true"
+
+        android:layout_width="30dp"
+        android:layout_height="30dp" />
+</RelativeLayout>
+                <TextView
+                    android:id="@+id/btn_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:text="海边的曼彻斯特"
+                    android:textColor="#ffffff"
+                    android:textSize="15dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:orientation="vertical">
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/index_img4"
+                    android:layout_width="220dp"
+                    android:layout_height="300dp"
+                    android:scaleType="fitXY" />
+    <ImageView
+        android:id="@+id/b4"
+        android:layout_centerInParent="true"
+        android:layout_width="30dp"
+        android:layout_height="30dp" />
+</RelativeLayout>
+                <TextView
+                    android:id="@+id/btn_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:text="普罗旺斯的夏天"
+                    android:textColor="#ffffff"
+                    android:textSize="15dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:orientation="vertical">
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/index_img5"
+                    android:layout_width="220dp"
+                    android:layout_height="300dp"
+                    android:scaleType="fitXY" />
+    <ImageView
+        android:id="@+id/b5"
+        android:layout_centerInParent="true"
+
+        android:layout_width="30dp"
+        android:layout_height="30dp" />
+</RelativeLayout>
+                <TextView
+                    android:id="@+id/btn_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:text="托斯卡纳艳阳下"
+                    android:textColor="#ffffff"
+                    android:textSize="15dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:orientation="vertical">
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/index_img6"
+                    android:layout_width="220dp"
+                    android:layout_height="300dp"
+                    android:layout_marginRight="25dp"
+                    android:scaleType="fitXY" />
+    <ImageView
+        android:id="@+id/b6"
+        android:layout_centerInParent="true"
+
+        android:layout_width="30dp"
+        android:layout_height="30dp" />
+</RelativeLayout>
+                <TextView
+                    android:id="@+id/btn_6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:text="东京物语"
+                    android:textColor="#ffffff"
+                    android:textSize="15dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </HorizontalScrollView>
+</LinearLayout>
+
